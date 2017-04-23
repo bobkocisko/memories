@@ -5,6 +5,6 @@
 #include <cstdio>
 
 int main(int argc, char *argv[]) {
-    printf("Hello, test!\n");
-    fflush(stdout);
+  printf("Hello, test!\n");
+  fflush(stdout);
 }

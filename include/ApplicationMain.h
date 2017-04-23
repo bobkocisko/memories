@@ -8,7 +8,7 @@
 #include <vector>
 
 class ApplicationMain {
-public:
-    static void Run(std::vector<std::string> parameters);
+ public:
+  static void Run(std::vector<std::string> parameters);
 };
 

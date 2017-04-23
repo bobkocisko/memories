@@ -5,6 +5,7 @@
 #include "ApplicationMain.h"
 
 void ApplicationMain::Run(std::vector<std::string>) {
-    printf("Hey from ApplicationMain!\n");
-    fflush(stdout);
+
+  printf("Hey from ApplicationMain!\n");
+  fflush(stdout);
 }
