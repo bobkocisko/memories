@@ -4,7 +4,9 @@
 
 #pragma once
 
-#include "EventSource.h"
+#include "../EventSource.h"
+
+namespace memories {
 
 class DispatchEventsLinux;
 
@@ -23,3 +25,5 @@ class EventSourceLinux : public EventSource {
  private:
   std::shared_ptr<DispatchEventsLinux> dispatchEventsLinux_;
 };
+
+}

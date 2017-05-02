@@ -4,10 +4,12 @@
 
 #include "system/_/DispatchEventsLinux.h"
 
-#include "system/EventSourceLinux.h"
+#include "system/_/EventSourceLinux.h"
 
 #include <cstring>
 #include <sys/epoll.h>
+
+namespace memories {
 
 DispatchEventsLinux::DispatchEventsLinux()
     : ignoreList_{},
@@ -87,3 +89,5 @@ void DispatchEventsLinux::Run() {
   }
 }
 #pragma clang diagnostic pop
+
+}

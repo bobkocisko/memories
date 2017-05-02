@@ -4,6 +4,8 @@
 
 #pragma once
 
+namespace memories {
+
 class EventSource;
 
 class DispatchEvents {
@@ -16,3 +18,5 @@ class DispatchEvents {
 
   virtual void Run() = 0;
 };
+
+}

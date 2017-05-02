@@ -5,5 +5,5 @@
 #include "../include/system/ApplicationMain.h"
 
 int main(int argc, char *argv[]) {
-  ApplicationMain::Run({});
+  memories::ApplicationMain::Run({});
 }

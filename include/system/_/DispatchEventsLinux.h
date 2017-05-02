@@ -4,9 +4,11 @@
 
 #pragma once
 
-#include "DispatchEvents.h"
+#include "../DispatchEvents.h"
 
 #include <sys/epoll.h>
+
+namespace memories {
 
 class DispatchEventsLinux : public DispatchEvents {
  public:
@@ -29,3 +31,5 @@ class DispatchEventsLinux : public DispatchEvents {
   int currentEventCount_;
   int currentEventIndex_;
 };
+
+}

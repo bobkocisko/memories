@@ -6,6 +6,8 @@
 
 #include <memory>
 
+namespace memories {
+
 class EventSource {
  public:
   virtual ~EventSource() {}
@@ -17,3 +19,5 @@ class EventSource {
 
   virtual void NotifyIsReady(ReadyTypes readyTypes) = 0;
 };
+
+}

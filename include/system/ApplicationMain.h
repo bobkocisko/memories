@@ -7,8 +7,11 @@
 #include <string>
 #include <vector>
 
+namespace memories {
+
 class ApplicationMain {
  public:
   static void Run(std::vector<std::string> parameters);
 };
 
+}
